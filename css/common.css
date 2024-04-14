@@ -61,3 +61,19 @@ body {
   padding: 8px 16px;
   list-style-type: none;
 }
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 48px 24px;
+  list-style: none;
+  padding: 0;
+}
+
+.gallery li {
+  width: calc((100% - 24px * 2) / 3);
+}
+
+.gallery img {
+  width: 100%;
+  height: auto;
+}
